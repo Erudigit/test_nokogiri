@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    jaro_winkler (1.5.4)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    parallel (1.19.2)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
+    powerpack (0.1.2)
+    rainbow (3.0.0)
+    rubocop (0.57.2)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.5)
+      powerpack (~> 0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.10.1)
+    unicode-display_width (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  rubocop (~> 0.57.2)
+
+RUBY VERSION
+   ruby 2.7.1p83
+
+BUNDLED WITH
+   2.1.4
